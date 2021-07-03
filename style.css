@@ -1,7 +1,63 @@
-#first {
-    color: crimson;
+.main {
+    width: 800x;
+    height: 700px;
+    position: relative;
+    background-color: whitesmoke;
 }
 
-.text-group {
-    color: #00ff00;
+.main-top {
+    float: left;
+    width: 100%;
+    height: 23%;
+    text-align: center;
+    color: #03c75a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-bottom {
+    float: left;
+    width: 100%;
+    height: 27%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.button {
+    width: 500px;
+    height: 60px;
+    background-color: #03c75a;
+    border: thin;
+    color: white;
+    font-size: 120%;
+}
+
+.main-middle-id {
+    float: left;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.main-middle-pw {
+    float: left;
+    width: 100%;
+    height: 10.5%;
+    text-align: center;
+}
+
+.main-middle-id input {
+    width: 55%;
+    height: 50px;
+    border: solid 1px lightgray;
+}
+
+.main-middle-pw input {
+    width: 55%;
+    height: 50px;
+    border: solid 1px lightgray;
+}
+
+.text-login {
+    font-size: 60px;
 }
