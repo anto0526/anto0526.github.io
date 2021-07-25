@@ -1,0 +1,575 @@
+.bg {
+    background: linear-gradient(to right, #88E8F2, #52B3D9);
+    position: relative;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.mainFrame {
+    background-color: white;
+    border-radius: 45px;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (min-width: 415px) {
+    .mainFrame {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+    .mainTitle {
+        padding-top: 5%;
+        font-size: x-large;
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    .idFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .inputId {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .pwFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .inputPw {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .pwCheckFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .inputPwCheck {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .userNameFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .inputUserName {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .birthDateFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .year {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 36%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .month {
+        width: 25%;
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .day {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 36%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .genderFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .gender {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .emailFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .inputEmail {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .phoneFrame {
+        margin: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .country {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .inputPhone {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 64%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .checkNumber {
+        margin-top: 4%;
+        padding: 6px;
+        width: 34%;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: white;
+        background-color: #52B3D9;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+
+    .confrimFrame {
+        margin: 15%;
+        text-align: center;
+    }
+
+
+    .confrim {
+        width: 70%;
+        padding: 3%;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: white;
+        background-color: #52B3D9;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .mainFrame{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        max-height: 900px;
+    }
+
+
+    .mainTitle {
+        padding-top: 5%;
+        font-size: x-large;
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    .idFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .inputId {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .pwFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .inputPw {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .pwCheckFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .inputPwCheck {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .userNameFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .inputUserName {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .birthDateFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .year {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 35%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .month {
+        width: 25%;
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .day {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(14, 14, 14);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 35%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .genderFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .gender {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .emailFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .inputEmail {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .phoneFrame {
+        margin: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .country {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .inputPhone {
+        background-color: #a2dbe9;
+        border-radius: 4px;
+        border: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        width: 65%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .checkNumber {
+        margin-top: 4%;
+        padding: 3px;
+        width: 32%;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: white;
+        background-color: #52B3D9;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+
+    .confrimFrame {
+        margin: 15%;
+        text-align: center;
+    }
+
+
+    .confrim {
+        width: 70%;
+        padding: 3%;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: white;
+        background-color: #52B3D9;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+}

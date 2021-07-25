@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css"/>
+        <script src="main.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg" style="width: auto; height: auto;">
+        <div class="mainFrame" style="height: 1600px;">
+            <div class="mainTitle">
+                <h2>회원가입</h2>
+            </div>
+            <div class="idFrame">
+                <label>아이디</label>
+                <input type="text" class="inputId">
+            </div>
+            <div class="pwFrame">
+                <label>비밀번호</label>
+                <input type="password" class="inputPw">
+            </div>
+            <div class="pwCheckFrame">
+                <label>비밀번호 확인</label>
+                <input type="password" class="inputPwCheck">
+            </div>
+            <div class="userNameFrame">
+                <label>이름</label>
+                <input type="text" class="inputUserName">
+            </div>
+            <div class="birthDateFrame">
+                <label>생년월일</label><br>
+                <input type="number" class="year">
+                <select class="month">
+                    <option>월</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <input type="number" class="day">
+            </div>
+            <div class="genderFrame">
+                <label>성별</label>
+                <select class="gender">
+                    <option>성별</option>
+                    <option>남자</option>
+                    <option>여자</option>
+                </select>
+            </div>
+            <div class="emailFrame">
+                <label>이메일</label>
+                <input type="email" class="inputEmail">
+            </div>
+            <div class="phoneFrame">
+                <label>휴대전화</label>
+                <select class="country">
+                    <option>대한민국 +82</option>
+                </select>
+                <input type="tel" class="inputPhone">
+                <button class="checkNumber">인증</button>
+            </div>
+            <div class="confrimFrame">
+                <button class="confrim">가입하기</button>
+            </div>
+        </div>
+    </body>
+</html>
